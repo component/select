@@ -1,0 +1,14 @@
+{
+  "name": "select-component",
+  "version": "0.0.1",
+  "description": "Select utility",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "select/index.js": "index.js"
+    }
+  }
+}

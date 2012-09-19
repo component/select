@@ -1,0 +1,12 @@
+{
+  "name": "select",
+  "repo": "component/select",
+  "description": "Array filter utility",
+  "version": "0.0.1",
+  "keywords": ["array", "utility", "filter"],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
