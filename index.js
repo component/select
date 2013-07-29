@@ -1,5 +1,11 @@
 
 /**
+ * Module dependencies.
+ */
+
+var toFunction = require('to-function');
+
+/**
  * Filter the given `arr` with callback `fn(val, i)`,
  * when a truthy value is return then `val` is included
  * in the array returned.
@@ -12,6 +18,7 @@
 
 module.exports = function(arr, fn){
   var ret = [];
+  fn = toFunction(fn);
   for (var i = 0; i < arr.length; ++i) {
     if (fn(arr[i], i)) {
       ret.push(arr[i]);
